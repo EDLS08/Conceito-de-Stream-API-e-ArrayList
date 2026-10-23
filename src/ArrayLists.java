@@ -1,13 +1,9 @@
-import javax.swing.*;
-import java.lang.reflect.AccessFlag;
-import java.sql.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
 
-public class ARRAYSLIST {
+public class ArrayLists {
     static void main(String[] args) {
    List<Integer> Age= new ArrayList<>();
    Random Gerador = new Random();
@@ -18,7 +14,7 @@ public class ARRAYSLIST {
     List<Integer> Adults = Age.stream()
             .filter(age -> age >= 18)
             .sorted()
-            .collect(Collectors.toList());
+            .collect(Collectors.toList());git ad
 
         Adults.forEach(age-> System.out.println(age));
     }
